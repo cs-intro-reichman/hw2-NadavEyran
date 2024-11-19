@@ -26,6 +26,7 @@ public class Collatz {
 				    }
 				    System.out.println("(" + (steps + 1) + ")");
 				}
+                System.out.println("Every one of the first " + maxSeed + " hailstone sequences reached 1.");
                 break;
 
             case "c":

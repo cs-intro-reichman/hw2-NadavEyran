@@ -25,10 +25,10 @@ public  class  TestRandom {
             System.out.println("<= 0.5: " + numberSmall);
         } else {
 
-	double Ratio = (double) numberSmall/numberBig;
+	double Ratio = (double) numberBig/numberSmall;
 
 	System.out.println("> 0.5:  "+numberBig);
-	System.out.println("<= 0.5:  "+(numberSmall));
+	System.out.println("<= 0.5: "+(numberSmall));
 	System.out.println("Ratio:  "+(Ratio));
 			}
 		}
