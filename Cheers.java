@@ -9,7 +9,7 @@ public class Cheers {
 
         for (int i = 0; i < Slength; i++) {
             char charCurrent = S.charAt(i);
-            String lettersA = "a ";
+            String lettersA = "a  ";
 
             switch (charCurrent) {
                 case 'A': case 'E': case 'F': case 'H': case 'I': case 'L': 
