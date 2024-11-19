@@ -21,7 +21,7 @@ public class Cheers {
                            }      
                    } 
 
-        System.out.println("Give me "+lettersA+" "+charCurrent+": "+charCurrent+"!"); 
+        System.out.println("Give me "+lettersA+"  "+charCurrent+": "+charCurrent+"!"); 
         }
         System.out.println("What does that spell?");
 
