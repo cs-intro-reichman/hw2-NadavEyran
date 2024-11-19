@@ -13,15 +13,15 @@ public class Cheers {
 
         for (int i = 0; i<Slength ; i++) {
               char charCurrent = S.charAt(i);
-                String lettersA = "a";
+                String lettersA = "a  ";
 
                 for (int j = 0; j<24 ; j++) {
                      if (charCurrent == specialLetters[j]) {
-                        lettersA = "an";           
+                        lettersA = "an ";           
                            }      
                    } 
 
-        System.out.println("Give me "+lettersA+"  "+charCurrent+": "+charCurrent+"!"); 
+        System.out.println("Give me "+lettersA+charCurrent+": "+charCurrent+"!"); 
         }
         System.out.println("What does that spell?");
 
